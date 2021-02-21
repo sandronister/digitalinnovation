@@ -15,7 +15,6 @@ fun main() {
     val p = Pessoa()
     p.nome = "Júlio Sandroni"
 
-
     println(p.getInfo())
 
 }
