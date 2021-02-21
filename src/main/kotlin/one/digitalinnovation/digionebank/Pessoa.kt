@@ -6,6 +6,8 @@ class Pessoa {
     var cpf:String="999.999.99-99"
     private set
 
+    fun getInfo() = "$nome e $cpf"
+
 }
 
 
@@ -14,6 +16,6 @@ fun main() {
     p.nome = "Júlio Sandroni"
 
 
-    println(p.nome)
-    println(p.cpf)
+    println(p.getInfo())
+
 }
